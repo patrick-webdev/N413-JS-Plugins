@@ -1,0 +1,34 @@
+* { box-sizing: border-box; }
+
+.grid {
+  background: gray;
+  max-width: 1200px;
+}
+
+.grid-sizer,
+.grid-item{
+  width: 20%;
+}
+
+.grid-item {
+  height: 120px;
+  float: left;
+  background: red;
+  border: 2px solid black;
+}
+
+.grid-item--width2 { width:  40%; }
+.grid-item--width3 { width:  60%; }
+.grid-item--width4 { width:  80%; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+.grid-item:hover{
+  background: yellow;
+}
+
+button{
+  font-size: 20px;
+}
